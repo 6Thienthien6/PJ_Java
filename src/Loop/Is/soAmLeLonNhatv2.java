@@ -1,4 +1,4 @@
-package array;
+package Loop.Is;
 
 public class soAmLeLonNhatv2 {
         public static void main(String[] args) {

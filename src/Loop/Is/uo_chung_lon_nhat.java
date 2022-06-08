@@ -1,4 +1,4 @@
-package array;
+package Loop.Is;
 
 import javax.swing.*;
 import java.util.Scanner;
