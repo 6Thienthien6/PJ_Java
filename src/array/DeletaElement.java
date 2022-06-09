@@ -13,7 +13,7 @@ public class DeletaElement {
             for (int i = 0; i < arr.length; i++) {
                 if (i < arr.length - 1) {
                     if (arr[i] == input) {
-                        input =0;
+                        input = 0;
                         arr[i] = arr[i + 1];
                         arr[i + 1] = input;
 
@@ -23,8 +23,8 @@ public class DeletaElement {
             count++;
 
         } while (count < arr.length);
-        for (int a : arr){
-        System.out.println(a + " ");
+        for (int a : arr) {
+            System.out.println(a + " ");
 
         }
     }
