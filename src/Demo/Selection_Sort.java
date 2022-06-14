@@ -30,7 +30,7 @@ public class Selection_Sort {
         }
 
     }
-
+// tìm ngược lại từ số lớn nhất đến nhỏ nhất
     public static void sortReverse(int[] array) {
         for (int i = 0; i < array.length - 1; i++) {
             int maxValue = array[i];
