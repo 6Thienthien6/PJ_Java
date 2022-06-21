@@ -11,6 +11,7 @@ public class testCylinder {
         System.out.println("color is: " + clnee.getColor());
         System.out.println("Diện tích(Area): " + clnee.getArea());
         System.out.println("Thể tích(Volume): " + clnee.getVolume());
-
+        Circle cl = new Circle(2,"BlackHawk");
+        System.out.println("Diện tích Hình tròn: " +cl.getArea() );
     }
 }
