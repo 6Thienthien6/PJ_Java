@@ -5,6 +5,7 @@ public class Tiger extends Animal {
     public String makeSound() {
         return "Tiger: Gràoooo!";
     }
+    @Override
     public String howToEat(){
         return "Ăn thịt của động vật ăn cỏ";
     }
