@@ -9,11 +9,11 @@ public class ComparableCircle extends Circle
 
     public ComparableCircle(double radius) {
         super(radius);
-        this.getRadius();
+
     }
 
     public ComparableCircle(double radius, String color, boolean filled) {
-        super(radius, color, filled)
+        super(radius, color, filled);
 
     }
 
@@ -23,9 +23,4 @@ public class ComparableCircle extends Circle
         else if (getRadius() < o.getRadius()) return -1;
         else return 1;
     }
-public interface getArea(ComparableCircle){
-
-
-}
-
 }
