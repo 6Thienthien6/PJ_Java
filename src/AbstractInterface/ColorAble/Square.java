@@ -1,4 +1,4 @@
-package ColorAble;
+package AbstractInterface.ColorAble;
 
 public class Square extends Shape implements colorAble{
     private int size;

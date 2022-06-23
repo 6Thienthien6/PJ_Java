@@ -1,4 +1,4 @@
-package ColorAble;
+package AbstractInterface.ColorAble;
 
 public class Rectangle extends Shape{
     private double width = 1.0;

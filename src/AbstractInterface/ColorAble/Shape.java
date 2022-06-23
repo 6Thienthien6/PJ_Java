@@ -1,4 +1,4 @@
-package ColorAble;
+package AbstractInterface.ColorAble;
 
 public class Shape {
     private String color = "green";
