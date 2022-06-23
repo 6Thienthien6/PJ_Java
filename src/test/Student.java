@@ -6,7 +6,7 @@ public class Student {
     String name;
     static String college = "Trường ICT Huế";//static variable
     //constructor
-    Student(int i, String n) {
+    public Student(int i, String n) {
         id = i;
         name = n;
 
