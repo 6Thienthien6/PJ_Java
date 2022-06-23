@@ -42,12 +42,13 @@ public class FizzBuzz {
         assertEquals(expected, result);
     }
     @Test
-    public void testFizzBuzz30(){
+    public void testFizzBuzz30() {
         int number = 30;
         String expected = "FizzBuzz";
         String result = FizzBuzz.fizzBuzz(number);
-        assertEquals(expected, number);
+        assertEquals(expected, result);
     }
+
 
     public static String fizzBuzz(int number){
         boolean isFizz = number % 3 == 0;
