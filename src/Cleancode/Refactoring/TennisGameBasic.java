@@ -1,4 +1,4 @@
-package Cleancode;
+package Cleancode.Refactoring;
 
 public class TennisGameBasic {
     public static String getScore(String player1Name, String player2Name, int m_score1, int m_score2) {

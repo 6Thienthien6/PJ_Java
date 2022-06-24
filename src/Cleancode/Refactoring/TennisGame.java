@@ -1,4 +1,4 @@
-package Cleancode;
+package Cleancode.Refactoring;
 
 public class TennisGame {
     public static final String LOVE_ALL = "Love-All";

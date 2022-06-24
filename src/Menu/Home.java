@@ -8,9 +8,9 @@ public class Home {
 
         System.out.println("*******==========LOGIN===========*******");
         System.out.println("*                                      *");
-        System.out.println("*****       1. Login by User       *****");
+        System.out.println("*****       1. Login by Admin      *****");
         System.out.println("*                                      *");
-        System.out.println("*****       2. Login by Admin      *****");
+        System.out.println("*****       2. Login by User       *****");
         System.out.println("*                                      *");
         System.out.println("*****       3. Create User         *****");
         System.out.println("----------------------------------------");
