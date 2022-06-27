@@ -6,15 +6,16 @@ import java.util.Scanner;
 
 public class ShowProduct {
     public static void showProducts(){
-        System.out.println("============== PRODUCT==================");
-        System.out.println("*                     1. Produclist   *");
-        System.out.println("*                     2. Turn Back   *");
-        System.out.println("*                                   *");
-        System.out.println("==================================");
-        System.out.print(" ⭆ ");
 
-        boolean end = false;
+
+        boolean end = true;
         do {
+            System.out.println("============== PRODUCT==================");
+            System.out.println("*                     1. Produclist   *");
+            System.out.println("*                     2. Turn Back   *");
+            System.out.println("*                                   *");
+            System.out.println("==================================");
+            System.out.print(" ⭆ ");
             Scanner scanner = new Scanner(System.in);
             int chose = scanner.nextInt();
             switch (chose){
@@ -22,12 +23,12 @@ public class ShowProduct {
                     System.out.println("PRODUCT LIST ");
                     break;
                 case 2:
-                    UserView.userView();
+
                     UserView.pickMe();
                     break;
                 default:
                     System.out.println("Xin mời chọn lại.( 1 hoặc 2) ");
-                    end = true;
+                    break;
             }
         }while (end);
     }

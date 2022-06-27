@@ -2,7 +2,7 @@ package Demo.AbstractInterface;
 
 public class Main {
     public static void main(String[] args) {
-        Animal dog = new doggo();
+        Animal dog = new Doggo();
         dog.setName("Bie");
         dog.toString();
         Animal bird = new Bird();

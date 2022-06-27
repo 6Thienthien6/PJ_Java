@@ -24,17 +24,18 @@ public class AdminView {
     }
 
     public static void Adminview() {
-        System.out.println("================== ADMIN ===========================");
-        System.out.println("            1.Manager User                        ");
-        System.out.println("            2.Manager Product                    ");
-        System.out.println("            3.Manager Order                     ");
-        System.out.println("            4. Log Out                         ");
-        System.out.println("----------------------------------------------");
-        System.out.println(" ⭆ ");
 
-        boolean end = false;
+
+        boolean end= true;
         do {
 
+            System.out.println("================== ADMIN ===========================");
+            System.out.println("            1.Manager User                        ");
+            System.out.println("            2.Manager Product                    ");
+            System.out.println("            3.Manager Order                     ");
+            System.out.println("            4. Log Out                         ");
+            System.out.println("----------------------------------------------");
+            System.out.println(" ⭆ ");
             Scanner scanner = new Scanner(System.in);
             int chose = scanner.nextInt();
             switch (chose) {
@@ -48,11 +49,11 @@ public class AdminView {
                     ManagerOrder.managerOrder();
                     break;
                 case 4:
-                    Home.Login();
+                    end = false;
                     break;
                 default:
                     System.out.println("Xin mời chọn lại.( 1, 2, 3 hoặc 4) ");
-                    end = true;
+                    break;
             }
         } while (end);
     }

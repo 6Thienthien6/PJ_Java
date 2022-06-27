@@ -1,7 +1,7 @@
 package Demo.AbstractInterface;
 
 
-    public class doggo extends Animal implements Barkable, Runable{
+    public class Doggo extends Animal implements Barkable, Runable{
         @Override
         public void setName(String name) {
             super.setName(name);

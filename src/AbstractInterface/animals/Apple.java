@@ -1,9 +1,8 @@
 package AbstractInterface.animals;
 
 public class Apple extends Fruit {
-//    @Override
+    //    @Override
     public String howToEat() {
-
         return "Apple could be slided";
     }
 }
