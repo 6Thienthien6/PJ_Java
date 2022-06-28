@@ -10,8 +10,6 @@ public class Arrlist1 {
         cars.add("Ford");
         cars.add("Mazda");
         System.out.println(cars);
-
-
     }
     }
 

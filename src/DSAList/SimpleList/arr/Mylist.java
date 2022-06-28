@@ -1,4 +1,4 @@
-package DSAList.SimpleList;
+package DSAList.SimpleList.arr;
 
 import java.util.Arrays;
 

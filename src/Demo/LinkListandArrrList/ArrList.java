@@ -12,7 +12,7 @@ public class ArrList {
         animals.add(new Animal());
         animals.add(new Animal());
         animals.add(new Animal());
-//        Animal a = animals.get(0);
+//        Animal a = animals.get(2);
         animals.add(2, new Animal());
 //        animals.remove(1);
 

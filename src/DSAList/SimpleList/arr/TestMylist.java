@@ -1,4 +1,4 @@
-package DSAList.SimpleList;
+package DSAList.SimpleList.arr;
 
 public class TestMylist {
     public static void main(String[] args) {

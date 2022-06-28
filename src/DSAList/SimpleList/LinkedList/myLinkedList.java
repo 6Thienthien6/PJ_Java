@@ -1,4 +1,4 @@
-package DSAList.LinkedList;
+package DSAList.SimpleList.LinkedList;
 
 public class myLinkedList {
     private  Node head;
