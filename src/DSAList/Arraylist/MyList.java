@@ -76,7 +76,9 @@ public class MyList<E> {
         size = 0;
     }
 
+
 }
+
 
 
 

@@ -37,6 +37,3 @@ public class Shape {
     }
 }
 
-interface Resizeable {
-    public void resize(double percent);
-}

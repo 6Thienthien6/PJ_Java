@@ -8,7 +8,7 @@ public class Tiger extends Animal implements Edible {
 
     @Override
     public String howToEat() {
-        return "Ăn thịt của động vật ăn cỏ";
+        return "Ăn thịt! ";
     }
 
 }

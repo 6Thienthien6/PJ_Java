@@ -2,8 +2,7 @@ package AbstractInterface.Bai3;
 
 import Inheritance.CirclenCylinder.Circle;
 
-public class ComparableCircle extends Circle
-        implements Comparable<ComparableCircle> {
+public class ComparableCircle extends Circle implements Comparable<ComparableCircle> {
     public ComparableCircle() {
     }
 
@@ -17,10 +16,15 @@ public class ComparableCircle extends Circle
 
     }
 
+
     @Override
     public int compareTo(ComparableCircle o) {
-        if (getRadius() > o.getRadius()) return 1;
+//        return getColor().compareTo(o.getColor());
+        if (getRadius() > o.getRadius())
+            return 1;
         else if (getRadius() < o.getRadius()) return -1;
-        else return 1;
+        else return 0;
+
     }
+
 }

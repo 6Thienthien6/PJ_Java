@@ -8,7 +8,7 @@ public class Chicken extends Animal implements Edible {
 
     @Override
     public String howToEat() {
-        return "could be Fried(ăn lúa)";
+        return "Chicken could be Fried(ăn lúa)";
     }
 }
 
