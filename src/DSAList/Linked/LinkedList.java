@@ -3,7 +3,7 @@ package DSAList.Linked;
 
 public class LinkedList<E> {
     private Node head;
-    private int numNode = 0;
+    private int numNode ;
 
     public class Node {
         private Node next;
@@ -65,14 +65,18 @@ public class LinkedList<E> {
         }
     }
 
-    public String remove(int index) {
+    public int remove(int index) {
         Node temp = head;
         for (int i = 0; i < index - 1 && temp.next != null; i++) {
-            temp.next = temp.next.next;
+            temp = temp.next;
         }
+        assert temp.next != null;
+        temp.next = temp.next.next;
         numNode--;
-        return null;
+        return index;
     }
+
+
 
     public E get(int index) {
         Node temp = head;
@@ -114,7 +118,7 @@ public class LinkedList<E> {
             }
             temp = temp.next;
         }
-        return -1;
+        return numNode;
     }
 
     public void printList() {

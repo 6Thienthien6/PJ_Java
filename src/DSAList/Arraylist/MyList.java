@@ -11,11 +11,12 @@ public class MyList<E> {
     }
 
     private void ensureCapa() {
-        if (size == elements.length) {
+        if (size >= elements.length) {
             int newSize = elements.length * 2;
 //            elements = Arrays.copyOf(elements, newSize);
             Object[] newElements = new Object[newSize];
             for (int i = 0; i < size; i++) {
+                newElements[i] = elements[i];
             }
             elements = newElements;
         }
@@ -40,13 +41,18 @@ public class MyList<E> {
     }
 
     public E remove(int index) {
-        if (index >= 0 && index < size) {
-            for (int i = index; i < size; i++) {
-                elements[i] = elements[i + 1];
+        int j = 0;
+        E element = null;
+        for (int i = 0; i < size; i++) {
+            if (i == index) {
+                element = (E) elements[i];
+                continue;
             }
-            size -= 1;
+            elements[j] = elements[i];
+            j++;
         }
-        return (E) elements[index];
+        size--;
+        return element;
     }
 
     public boolean contains(E o) {
@@ -68,14 +74,13 @@ public class MyList<E> {
     }
 
     public E get(int index) {
-        return (E) elements[index];
+        return (E)elements[index];
     }
 
     public void clear() {
         elements = new Object[DEFAULT_CAPACITY];
         size = 0;
     }
-
 
 }
 
