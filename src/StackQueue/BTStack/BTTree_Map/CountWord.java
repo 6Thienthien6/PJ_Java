@@ -5,7 +5,7 @@ import java.util.TreeMap;
 
 public class CountWord {
     public static void main(String[] args) {
-        String str = "Trần Đại Thiên Thiên. C0522K1, Razt, Codegym Hue";
+        String str = "Tran Dai Thien Thien. C0522K1, Razt, Codegym Hue";
         str.replace ( ",", "" );
         str.replace ( ".", "" );
         String[] array = str.split ( "" );
