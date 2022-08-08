@@ -1,4 +1,4 @@
-package StackQueue.THStack;
+package StackQueue.THStack.SPStack;
 
 public class GenericStackClient {
     private static void stackOfIStrings() {
