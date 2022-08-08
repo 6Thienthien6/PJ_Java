@@ -1,4 +1,4 @@
-package StackQueue.THQueue;
+package StackQueue.THQueue.LinkedListQueue;
 
 public class LinkedListQueueClient {
     public static void main(String[] args) {

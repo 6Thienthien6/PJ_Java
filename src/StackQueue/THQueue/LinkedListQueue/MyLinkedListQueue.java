@@ -1,4 +1,4 @@
-package StackQueue.THQueue;
+package StackQueue.THQueue.LinkedListQueue;
 
 public class MyLinkedListQueue {
     private Node head;

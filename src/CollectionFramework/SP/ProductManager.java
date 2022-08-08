@@ -10,12 +10,12 @@ public class ProductManager {
     private final ArrayList<Product> productList = new ArrayList<>();
     private static final Scanner scanner = new Scanner(System.in);
 
-    public ProductManager() {
-
-        Product Iphone = new Product(1, "Iphone X", 17000000);
-        Product Iphone1 = new Product(2, "Iphone 11", 20000000);
-        Product Iphone2 = new Product(3, "Iphone 12", 23000000);
-    }
+//    public ProductManager() {
+//
+//        Product Iphone = new Product(1, "Iphone X", 17000000);
+//        Product Iphone1 = new Product(2, "Iphone 11", 20000000);
+//        Product Iphone2 = new Product(3, "Iphone 12", 23000000);
+//    }
 
     public void addProduct() {
         renderProduct();
