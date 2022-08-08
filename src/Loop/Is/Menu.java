@@ -5,7 +5,7 @@ public class Menu {
         int choice = -1;
         Scanner input = new Scanner(System.in);
         while(choice != 0) {
-            System.out.println("Menu");
+            System.out.println("menu");
             System.out.println("1. Draw the triangle");
             System.out.println("2. Draw the square");
             System.out.println("3. Draw the rectangle");
